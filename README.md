@@ -1,9 +1,63 @@
-# React + Vite
+# AI Integrated Resume Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **AI Integrated Resume Builder**! This project leverages AI to assist users in creating polished and professional resumes by providing personalized content suggestions. Built with React, Vite, and Tailwind CSS, this application combines a user-friendly interface with a secure backend to offer an efficient, seamless, and secure experience for users.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# ai-integrated-resume-builder-react
+## Features
+
+- **AI-Generated Content**: Utilizes Google Gemini for personalized resume suggestions, helping users with tailored content to enhance their resumes.
+- **Secure Authentication**: Implements Clerk for secure user authentication and authorization to safeguard user data.
+- **User-Friendly Interface**: Designed with Tailwind CSS, the interface is intuitive, ensuring a smooth user experience.
+- **Efficient Backend**: Powered by Strapi and deployed on render.com, the backend supports dynamic and secure content management.
+- **Fast Frontend**: Developed with React and Vite, and hosted on Hostinger, ensuring a fast and responsive user experience.
+
+## Technologies Used
+
+- **Frontend**: React, Vite, Tailwind CSS
+- **Backend**: Strapi, hosted on render.com
+- **Authentication**: Clerk
+- **AI Integration**: Google Gemini for AI-based resume suggestions
+- **Deployment**: Frontend on Hostinger, Backend on render.com
+
+## Project Structure
+
+The project is organized as follows:
+
+├── client/ # Frontend (React + Vite) │ ├── src/ │ │ ├── components/ # Reusable React components │ │ ├── pages/ # Main application pages │ │ ├── assets/ # Images, icons, etc. │ └── ... ├── server/ # Backend (Strapi) │ ├── config/ # Configuration files for Strapi │ ├── models/ # Database models and schemas │ └── ... ├── README.md # Project documentation └── package.json # Project dependencies and scripts
+
+
+## Installation
+
+To set up and run the project locally, follow these steps:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/ai-integrated-resume-builder.git
+   cd ai-integrated-resume-builder
+   cd client
+   npm install
+   cd ../server
+   npm install
+
+## Run Application:
+   cd server
+   npm run develop
+
+## Usage
+
+    Sign Up / Log In: Use the Clerk-powered authentication to create an account or log in securely.
+    AI-Powered Resume Suggestions: Get personalized resume suggestions based on the AI-powered Google Gemini API.
+    Edit and Save Resume: Customize your resume as needed and save it for future use.
+    Export Resume: Export your finished resume to PDF or other desired formats.
+
+## Screenshots
