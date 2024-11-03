@@ -28,6 +28,18 @@ Welcome to the **AI Integrated Resume Builder**! This project leverages AI to as
 - **AI Integration**: Google Gemini for AI-based resume suggestions
 - **Deployment**: Frontend on Hostinger, Backend on render.com
 
+## Screenshots
+![Screenshot from 2024-11-03 19-01-49](https://github.com/user-attachments/assets/b0bafd12-0f00-4ecc-80be-9fb49f4e88b8)
+
+![Screenshot from 2024-11-03 19-01-07](https://github.com/user-attachments/assets/693852d0-301a-4887-b6a5-91468081f077)
+
+![Screenshot from 2024-11-03 18-59-50](https://github.com/user-attachments/assets/2879fee8-0ade-4475-a685-b9e4fa6c20b4)
+
+![Screenshot from 2024-11-03 18-59-04](https://github.com/user-attachments/assets/afbbb51f-9b82-466d-a4dc-374f8a44df7d)
+
+![Screenshot from 2024-11-03 18-58-08](https://github.com/user-attachments/assets/9a797b0a-5fb0-4989-b13a-7c2924d772ec)
+
+
 ## Project Structure
 
 The project is organized as follows:
@@ -60,4 +72,6 @@ To set up and run the project locally, follow these steps:
     Edit and Save Resume: Customize your resume as needed and save it for future use.
     Export Resume: Export your finished resume to PDF or other desired formats.
 
-## Screenshots
+## Contributing
+
+Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
